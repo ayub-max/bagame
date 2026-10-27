@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content=".B.A. GAME deals: weekly sales, coupons and best offers.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>.B.A. GAME — deals</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%F0%9F%8E%AE%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="themes.css">
+<script src="theme.js"></script>
+<link rel="stylesheet" href="refresh.css">
+</head>
+<body data-page="deals">
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <a class="logo" href="index.html">.B.A. <span>GAME</span></a>
+    <nav class="nav" id="main-nav">
+      <a href="index.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="library.html">Library</a>
+      <a href="history.html">History</a>
+      <a href="profile.html">Profile</a>
+      <a href="explore.html">Explore</a>
+      <a href="deals.html" aria-current="page">Deals</a>
+      <a href="support.html">Support</a>
+    </nav>
+    <div class="session" data-session></div>
+    <button class="burger" type="button" data-burger aria-expanded="false" aria-controls="main-nav" aria-label="Open menu"><span class="burger__lines"></span></button>
+  </div>
+</header>
+
+<main class="shell">
+  <div class="page-head">
+    <h1>Weekly deals</h1>
+    <p>Best discounts right now. Coupons: <code>BAGAME10</code> · <code>WEEKEND20</code> · <code>NEWPLAYER</code></p>
+  </div>
+
+  <section class="section">
+    <div class="section__head"><h2>Hot offers</h2><span class="section__note">Sorted by discount</span></div>
+    <div class="grid" id="deals-grid"></div>
+  </section>
+
+  <section class="section">
+    <div class="section__head"><h2>Under $20</h2></div>
+    <div class="grid" id="deals-cheap"></div>
+  </section>
+
+  <section class="section">
+    <div class="section__head"><h2>Free to play</h2></div>
+    <div class="grid" id="deals-free"></div>
+  </section>
+
+  <section class="section">
+    <div class="section__head"><h2>How coupons work</h2></div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px">
+      <div class="rail__box"><b>BAGAME10</b><p class="rail__text">10% off your entire cart.</p></div>
+      <div class="rail__box"><b>WEEKEND20</b><p class="rail__text">20% off on weekends.</p></div>
+      <div class="rail__box"><b>NEWPLAYER</b><p class="rail__text">Extra welcome discount for new accounts.</p></div>
+      <div class="rail__box"><b>Stacking</b><p class="rail__text">One coupon per checkout. Sale prices already applied.</p></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="shell footer__top">
+    <div class="footer__brand">
+      <p class="logo">.B.A. <span>GAME</span></p>
+      <p class="footer__about">A game store with fair prices, a living library and a profile that remembers every achievement.</p>
+    </div>
+    <nav class="footer__col" aria-label="Site sections">
+      <h3>Platform</h3>
+      <a href="index.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="library.html">Library</a>
+      <a href="history.html">History</a>
+      <a href="profile.html">Profile</a>
+      <a href="explore.html">Explore</a>
+      <a href="deals.html">Deals</a>
+      <a href="support.html">Support</a>
+    </nav>
+    <nav class="footer__col" aria-label="Support">
+      <h3>Support</h3>
+      <a href="support.html">Help</a>
+      <a href="support.html">Refunds</a>
+    </nav>
+  </div>
+  <div class="shell footer__bottom">
+    <span>© 2026 .B.A. GAME</span>
+    <span>Demo platform · made with love for games</span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+<script src="fpgames.js"></script>
+<script src="refresh.js"></script>
+<script src="features.js"></script>
+</body>
+</html>
